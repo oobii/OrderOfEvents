@@ -12,6 +12,8 @@
 		71364E0B1FCE3B92005E7C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71364E091FCE3B92005E7C48 /* Main.storyboard */; };
 		71364E0D1FCE3B92005E7C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71364E0C1FCE3B92005E7C48 /* Assets.xcassets */; };
 		71364E101FCE3B92005E7C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71364E0E1FCE3B92005E7C48 /* LaunchScreen.storyboard */; };
+		71364E181FCE3CC6005E7C48 /* MiddleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71364E171FCE3CC6005E7C48 /* MiddleViewController.swift */; };
+		71364E1A1FCE3CD4005E7C48 /* LastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71364E191FCE3CD4005E7C48 /* LastViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		71364E0C1FCE3B92005E7C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71364E0F1FCE3B92005E7C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71364E111FCE3B92005E7C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71364E171FCE3CC6005E7C48 /* MiddleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MiddleViewController.swift; sourceTree = "<group>"; };
+		71364E191FCE3CD4005E7C48 /* LastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				71364E051FCE3B92005E7C48 /* AppDelegate.swift */,
 				71364E071FCE3B92005E7C48 /* ViewController.swift */,
 				71364E091FCE3B92005E7C48 /* Main.storyboard */,
+				71364E171FCE3CC6005E7C48 /* MiddleViewController.swift */,
+				71364E191FCE3CD4005E7C48 /* LastViewController.swift */,
 				71364E0C1FCE3B92005E7C48 /* Assets.xcassets */,
 				71364E0E1FCE3B92005E7C48 /* LaunchScreen.storyboard */,
 				71364E111FCE3B92005E7C48 /* Info.plist */,
@@ -139,6 +145,8 @@
 			files = (
 				71364E081FCE3B92005E7C48 /* ViewController.swift in Sources */,
 				71364E061FCE3B92005E7C48 /* AppDelegate.swift in Sources */,
+				71364E1A1FCE3CD4005E7C48 /* LastViewController.swift in Sources */,
+				71364E181FCE3CC6005E7C48 /* MiddleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
