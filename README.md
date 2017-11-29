@@ -10,8 +10,6 @@ OrderOfEvents is similar to LifeCycleOfVC but shows all events for the Middle co
  Event Number: 7 viewDidAppear<br>
  Event Number: 8 viewWillDisappear<br>
  Event Number: 9 viewDidDisappear<br>
-
-
- Event Number: 1 viewDidLoad
- Event Number: 2 viewWillAppear
- Event Number: 3 viewDidAppear
+ Event Number: 1 viewDidLoad<br>
+ Event Number: 2 viewWillAppear<br>
+ Event Number: 3 viewDidAppear<br>
