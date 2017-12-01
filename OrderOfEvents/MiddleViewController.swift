@@ -65,6 +65,15 @@ class MiddleViewController: UIViewController {
 
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        
+        if let dest = segue.destination as? LastViewController {
+            print("Goint to the LastViewController")
+            dest.contents = middleLabel.text!
+            
+        }
+    }
     
     
     override func didReceiveMemoryWarning() {

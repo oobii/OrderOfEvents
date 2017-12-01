@@ -10,10 +10,24 @@ import UIKit
 
 class LastViewController: UIViewController {
 
+   
+    @IBOutlet weak var lastLabel: UILabel!
+    
+    var contents = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+      
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        // [0] is self (current VC)
+        // [1] is previous VC, we are comming from
+        // we still missing viewDidDisappear event
+        
+        if let prevVC = self.navigationController?.viewControllers[1] as? MiddleViewController {
+            lastLabel.text = prevVC.middleLabel.text!
+        }
     }
 
     override func didReceiveMemoryWarning() {
